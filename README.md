@@ -3,7 +3,7 @@
 
 ![Screenshot 1](screenshot1.png)
 ![Screenshot 2](screenshot2.png)
-
+![Screenshot 3](screenshot3.png)
 
 Pembe & kawaii temalı basit bir QR kod üretme ve okuma web uygulaması.  
 Frontend React + saf CSS, backend FastAPI kullanılarak geliştirildi. 🎀✨
