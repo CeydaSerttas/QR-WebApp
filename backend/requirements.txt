@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+qrcode
+pillow
+opencv-python
+python-multipart
