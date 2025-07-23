@@ -46,12 +46,6 @@ npm run dev
 
 ---
 
-## 📸 Ekran Görüntüsü
-
-> Buraya projeden alacağın pembe tatlı ekran görüntülerini ekleyebilirsin. 🎀
-
----
-
 ## ✨ Made with love and pink sparkles ✨
 
 ```
