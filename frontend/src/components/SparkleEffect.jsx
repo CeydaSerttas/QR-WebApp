@@ -1,5 +1,3 @@
-// frontend/src/components/SparkleEffect.jsx
-
 import React, { useEffect } from "react";
 import "./SparkleEffect.css";
 
@@ -17,8 +15,7 @@ export default function SparkleEffect() {
       container.appendChild(star);
     }
 
-    setTimeout(() => container.remove(), 2000); // 2 saniye sonra yok olsun
-
+    setTimeout(() => container.remove(), 2000);
     return () => container.remove();
   }, []);
 

@@ -1,5 +1,3 @@
-# backend/qr_generator.py
-
 import io
 import base64
 import qrcode

@@ -1,5 +1,3 @@
-# backend/qr_reader.py
-
 import cv2
 import numpy as np
 
@@ -11,6 +9,6 @@ def read_qr_code(image_bytes: bytes) -> str:
     data, _, _ = detector.detectAndDecode(img)
 
     if not data:
-        raise ValueError("Geçerli bir QR kod tespit edilemedi.")
+        raise ValueError("No valid QR code detected.")
 
     return data

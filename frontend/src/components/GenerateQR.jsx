@@ -17,7 +17,7 @@ export default function GenerateQR() {
     <div className="qr-section">
       <input
         className="qr-input"
-        placeholder="💖 QR koduna dönüştürülecek metin 💖"
+        placeholder="💖 Text to convert into QR 💖"
         value={inputText}
         onChange={(e) => setInputText(e.target.value)}
       />

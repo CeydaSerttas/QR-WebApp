@@ -9,20 +9,19 @@ export default function App() {
   return (
     <div className="app-wrapper">
       <div className="main-card">
-        <h1 className="app-title">🎀 QR Kod Uygulaması 🎀</h1>
-
+        <h1 className="app-title">🎀 QR Code App 🎀</h1>
         <div className="tab-buttons">
           <button
             className={`tab-btn ${page === "generate" ? "active-tab" : ""}`}
             onClick={() => setPage("generate")}
           >
-            🎨 QR ÜRET
+            🎨 Generate QR
           </button>
           <button
             className={`tab-btn ${page === "read" ? "active-tab" : ""}`}
             onClick={() => setPage("read")}
           >
-            📷 QR OKU
+            📷 Read QR
           </button>
         </div>
 

@@ -30,7 +30,7 @@ export default function ReadQR() {
 
       {qrText && (
         <div className="qr-result-card">
-          📄 <strong>QR Kod İçeriği:</strong>
+          📄 <strong>QR Code Content:</strong>
           <p>{qrText}</p>
         </div>
       )}
