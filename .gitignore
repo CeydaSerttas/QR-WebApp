@@ -25,5 +25,4 @@ build/
 .cache/
 ._*
 
-# Optional - ignore static screenshots
 /screenshots/
